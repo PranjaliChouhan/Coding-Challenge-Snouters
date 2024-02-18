@@ -16,10 +16,10 @@ Information about hotel is given and Header of the website contains registration
 6.Number of Guests: Users are required to enter the number of guests.
 7.Room Type: Users can select a room type from the dropdown menu.
 
-Error Messages
+Error Messages:
 If any of the required fields are not filled out correctly, an error message will be displayed. Please make sure all the information is provided correctly before submitting the form.
 
-Submitting the Form
+Submitting the Form:
 After clicking the submit button, you will be navigated to the calendar, which shows the available and booked rooms for the selected dates. 
 If the room you selected is available, you will be able to confirm your booking. If the room is not available, a message will be displayed indicating that the room is not available for the selected dates.
 
