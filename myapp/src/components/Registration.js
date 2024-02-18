@@ -76,7 +76,7 @@ const CustomForm = () => {
           </div>
           <div className="form-group">
            {/* <button type="submit" style={{width: "120px", padding: "10px 0"}}>Submit</button>*/}
-           <NavLink to="/rooms"> Submit</NavLink>
+           <NavLink to="/rooms"className="nav-link" > Submit</NavLink>
           </div>
         </Form>
       </Formik>

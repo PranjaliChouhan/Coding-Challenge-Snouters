@@ -15,11 +15,14 @@ const rooms = () => {
     ];
   
     return (
+      <div className='calendar'>
       <FullCalendar
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
         events={[...availableDates, ...bookedDates]}
+        className="custom-calendar"
       />
+      </div>
     );
   };
   

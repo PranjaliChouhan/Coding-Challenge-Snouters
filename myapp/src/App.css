@@ -41,7 +41,7 @@ body{
   font-style:italic;
 }
 /*******registration *******/
-/* Form.css */
+
 
 .form {
   
@@ -97,4 +97,42 @@ body{
 
 .form-group button:hover {
   background-color: #04293ce1;
+}
+/*navigation link-submit*/
+
+.form-group > .nav-link {
+ 
+  padding: 10px;
+  background-color: #01010b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-group > .nav-link:hover {
+  background-color: #04293ce1;
+}
+
+
+
+/*******rooms availability *******/
+/* calendar.css */
+.calendar {
+ padding: 40px;
+ 
+  
+  
+}
+
+
+@media (max-width: 768px) {
+  .calendar {
+    flex-direction: column;
+  }
+
+  .custom-calendar {
+    width: 100%;
+  }
 }
