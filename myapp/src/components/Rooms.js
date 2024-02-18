@@ -14,12 +14,22 @@ const rooms = () => {
       { title: 'Booked', start: '2024-02-06', end: '2024-02-20' },
     ];
   
+    const handleEventClick = (info) => {
+      if (info.event.title === 'Available') {
+        
+        alert('Booking confirmed');
+      }
+      else{
+        alert("not available")
+      }
+    };
     return (
       <div className='calendar'>
       <FullCalendar
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
         events={[...availableDates, ...bookedDates]}
+        eventClick={handleEventClick}
         className="custom-calendar"
       />
       </div>
