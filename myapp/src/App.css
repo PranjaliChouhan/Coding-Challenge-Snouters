@@ -1,0 +1,100 @@
+body{
+  background-image: url('./assets/photo.jpg');
+}
+
+/*******Header *******/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+/*******Home *******/
+.home{
+  width: 900px;
+  padding: 20px;
+}
+.home p{
+  font-size: 40px;
+  color: #e4edee;
+  font-style:italic;
+}
+/*******registration *******/
+/* Form.css */
+
+.form {
+  
+  max-width: 600px;
+  
+  margin: 0 auto;
+  padding: 20px  ;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 120px;
+  padding: 10px;
+  background-color: #01070ed0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto; 
+  display: block; 
+}
+
+
+.form-group button:hover {
+  background-color: #04293ce1;
+}
